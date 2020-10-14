@@ -6,7 +6,7 @@ int main() {
   int s = 0;
   scanf("%d", &a);
   b = len(a);
-  while (a) {
+  while (a) {               //取倒序
     s = s * 10 + a % 10;
     a = a / 10;
   }
@@ -14,7 +14,7 @@ int main() {
 }
 
 
-int len(int a) {
+int len(int a) {   //取长度的函数len()
   int count = 0;
   do {
     count++;
